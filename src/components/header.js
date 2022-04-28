@@ -1,5 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/react';
+import Navegacion from './nav';
 
 const Header = () => {
     return (
@@ -28,7 +29,11 @@ const Header = () => {
                         text-align: center;
                     `}
                 >Desde header</h1>
+
+                <Navegacion />
+
             </div>
+
         </header> 
     );
 }

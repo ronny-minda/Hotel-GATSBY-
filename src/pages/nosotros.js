@@ -1,11 +1,10 @@
 import * as React from "react"
-import Layout from "../components/layout";
-import ImagenHotel from "../components/imagenHotel";
+import Layout from "../components/layout"
 
 const IndexPage = () => {
   return(
     <Layout>
-      <ImagenHotel />
+      <h1>Nosotros</h1>
     </Layout>
   )
 }
