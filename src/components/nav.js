@@ -32,7 +32,7 @@ const NavLink = styled(Link)`
 
 const Navegacion = () => {
     return ( 
-        <nav>
+        <Nav>
             <NavLink 
                 to={'/'}
                 activeClassName="pagina-actual"
@@ -41,7 +41,7 @@ const Navegacion = () => {
                 to={'/nosotros'} 
                 activeClassName="pagina-actual"
             >Nosotros</NavLink>
-        </nav>
+        </Nav>
     );
 }
  

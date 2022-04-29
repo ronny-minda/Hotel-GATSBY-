@@ -1,10 +1,11 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import ContenidoNosotr from "../components/contenidoNosotros"
 
 const IndexPage = () => {
   return(
     <Layout>
-      <h1>Nosotros</h1>
+      <ContenidoNosotr />
     </Layout>
   )
 }
