@@ -18,7 +18,17 @@ const useHabitaciones = () => {
       }
     `)
 
-    console.log(data);
+    // const info = useStaticQuery(graphql`
+    // query {
+    //     allDatoCmsHabitacione {
+    //       nodes {
+    //         slug
+    //       }
+    //     }
+    //   }
+    // `)
+
+    // console.log(info);
 
     return data.allDatoCmsHabitacione.nodes.map(habitacion => ({
         titulo: habitacion.titulo,

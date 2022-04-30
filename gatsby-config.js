@@ -38,5 +38,6 @@ module.exports = {
         apiToken: `f1eb69e1939802219ffab5aebee22f`,
       }
     },
+    `gatsby-plugin-mdx`,
   ],
 }

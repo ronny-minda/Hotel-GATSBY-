@@ -24,7 +24,6 @@ const IndexPage = () => {
 
   const habitacion = useHabitaciones();
 
-  console.log(habitacion);
 
   return(
     <Layout>

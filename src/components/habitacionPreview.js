@@ -22,7 +22,6 @@ const HabitacionPreview = ({habitacion}) => {
 
     const { contenido, imagen, titulo, slug } = habitacion;
 
-    console.log(slug);
 
 
     return ( 
